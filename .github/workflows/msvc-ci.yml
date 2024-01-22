@@ -17,6 +17,23 @@ jobs:
           cmake -G "Visual Studio 17 2022" -A Win32 ..
           cmake --build . --config Debug
           cmake --build . --config Release
+          
+      - name: Set up Git
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
+      - name: Create Output Folder
+        run: mkdir output
+
+      - name: Copy Build to Output
+        run: cp -r build/* output/
+
+      - name: Commit and Push Changes
+        run: |
+          git add output/*
+          git commit -m "Update output from build"
+          git push
 
       # This should probably be fixed to work from MSVC without needing to
       # use a bash shell and the GNU userland tools...  But for now, the
