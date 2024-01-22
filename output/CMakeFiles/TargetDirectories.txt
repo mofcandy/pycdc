@@ -1,0 +1,7 @@
+D:/a/pycdc/pycdc/build/CMakeFiles/pycxx.dir
+D:/a/pycdc/pycdc/build/CMakeFiles/pycdas.dir
+D:/a/pycdc/pycdc/build/CMakeFiles/pycdc.dir
+D:/a/pycdc/pycdc/build/CMakeFiles/check.dir
+D:/a/pycdc/pycdc/build/CMakeFiles/INSTALL.dir
+D:/a/pycdc/pycdc/build/CMakeFiles/ALL_BUILD.dir
+D:/a/pycdc/pycdc/build/CMakeFiles/ZERO_CHECK.dir
